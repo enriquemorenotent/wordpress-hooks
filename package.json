@@ -1,0 +1,31 @@
+{
+	"name": "wordpress-hooks",
+	"version": "1.0.0",
+	"description": "Custom hooks for React applications to communicate with WordPress APIs",
+	"main": "dist/wordpress-hooks.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack --mode production",
+		"prepublishOnly": "npm run build",
+		"watch": "webpack --watch --mode development"
+	},
+	"author": "",
+	"license": "ISC",
+	"peerDependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.21.0",
+		"@babel/core": "^7.21.3",
+		"@babel/preset-env": "^7.20.2",
+		"@babel/preset-react": "^7.18.6",
+		"babel-loader": "^9.1.2",
+		"webpack": "^5.76.3",
+		"webpack-cli": "^5.0.1"
+	},
+	"dependencies": {
+		"axios": "^1.3.4",
+		"react-query": "^3.39.3"
+	}
+}
