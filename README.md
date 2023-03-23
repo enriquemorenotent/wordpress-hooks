@@ -1,4 +1,4 @@
-# ReactPress
+# Wordpress Hooks
 
 ReactPress is a collection of React hooks to easily fetch data from a WordPress REST API. It uses the React context API and the react-query library to fetch and manage the data.
 

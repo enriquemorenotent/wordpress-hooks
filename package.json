@@ -1,6 +1,6 @@
 {
 	"name": "wordpress-hooks",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Custom hooks for React applications to communicate with WordPress APIs",
 	"main": "dist/wordpress-hooks.js",
 	"scripts": {
